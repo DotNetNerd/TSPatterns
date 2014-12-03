@@ -1,0 +1,18 @@
+﻿body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #fff;
+    background-color: #000;
+    font-size: 12px;
+}
+
+span {
+    font-style: italic;
+}
+
+hr {
+    background-color: #fff;
+}
+
+a, a:hover {
+    color: white;
+}

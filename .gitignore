@@ -1,0 +1,46 @@
+bin/
+obj/
+tmp/
+*.tmp
+*.bak
+
+*.suo
+*.user
+
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+
+*.js
+*.map
+
+## TODO: If you have NuGet Package Restore enabled, uncomment this
+packages/
+
+# ReSharper is a .NET coding add-in
+_ReSharper*
+
+
+# Click-Once directory
+publish
+
+# Others
+[Bb]in
+[Oo]bj
+
+
+
+############
+## Windows
+############
+
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+
+# Mac crap
+.DS_Store
