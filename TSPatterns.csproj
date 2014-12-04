@@ -19,6 +19,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="singleton.html" />
     <Content Include="factory.html" />
     <Content Include="controller.html" />
     <Content Include="command.html" />
@@ -27,13 +28,12 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="singleton.ts" />
     <TypeScriptCompile Include="factory.ts" />
     <TypeScriptCompile Include="controller.ts" />
     <TypeScriptCompile Include="common.ts" />
     <TypeScriptCompile Include="command.ts" />
     <TypeScriptCompile Include="eventSource.ts" />
-    <TypeScriptCompile Include="junk\eventSauce.ts" />
-    <TypeScriptCompile Include="junk\app.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="README.md" />
