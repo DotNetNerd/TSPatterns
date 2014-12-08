@@ -19,6 +19,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="viewModel.html" />
     <Content Include="singleton.html" />
     <Content Include="factory.html" />
     <Content Include="controller.html" />
@@ -28,6 +29,7 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="viewModel.ts" />
     <TypeScriptCompile Include="singleton.ts" />
     <TypeScriptCompile Include="factory.ts" />
     <TypeScriptCompile Include="controller.ts" />
