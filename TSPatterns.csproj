@@ -19,6 +19,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
+    <Content Include="builder.html" />
+    <Content Include="strategy.html" />
     <Content Include="viewModel.html" />
     <Content Include="singleton.html" />
     <Content Include="factory.html" />
@@ -29,6 +31,8 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="builder.ts" />
+    <TypeScriptCompile Include="strategy.ts" />
     <TypeScriptCompile Include="viewModel.ts" />
     <TypeScriptCompile Include="singleton.ts" />
     <TypeScriptCompile Include="factory.ts" />
