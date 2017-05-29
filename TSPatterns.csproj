@@ -10,12 +10,13 @@
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <DebugType>full</DebugType>
     <DebugSymbols>true</DebugSymbols>
-    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <TypeScriptToolsVersion>2.0</TypeScriptToolsVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <ItemGroup>
     <Content Include="app.css" />
@@ -33,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="builder.ts" />
+    <TypeScriptCompile Include="lazy.ts" />
     <TypeScriptCompile Include="templateMethod.ts" />
     <TypeScriptCompile Include="strategy.ts" />
     <TypeScriptCompile Include="viewModel.ts" />
